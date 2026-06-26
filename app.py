@@ -149,7 +149,7 @@ with col_titulo:
         """
         ### Seguimiento Comercial de Packs Promocionales
         
-        **Meta Comercial:** Bs 43.500
+        **Meta Comercial:** Bs 10.000 Venta Neta
         
         Vigencia: 18-Jun al 30-Jun
         """
