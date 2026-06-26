@@ -168,7 +168,7 @@ paquetes = df_filtrado["Paquetes"].sum()
 rollos = df_filtrado["Rollos"].sum()
 facturas = df_filtrado["Número de Factura"].nunique()
 ticket = ventas / facturas if facturas > 0 else 0
-meta = 43500
+meta = 10000
 cumplimiento = ventas / meta
 
 col1, col2, col3, col4, col5, col6 = st.columns(6)
