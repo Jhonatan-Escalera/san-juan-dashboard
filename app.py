@@ -6,6 +6,19 @@ import numpy as np
 import os 
 from datetime import datetime
 
+
+import streamlit as st
+
+st.write("Versión Streamlit:", st.__version__)
+
+try:
+    usuario = st.user
+    st.success("La autenticación está disponible.")
+except Exception as e:
+    st.error(f"No disponible: {e}")
+
+st.stop()
+
 # --------------------------------------------------
 # CONFIGURACIÓN DE PÁGINA
 # --------------------------------------------------
